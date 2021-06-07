@@ -17,4 +17,4 @@ Sample for ButtonStyle with SwiftUI
 <img src="SS.png" width="50%"/>
 
 # LICENSE
-[LICENSE](./LICENSE.md)
+[LICENSE](./LICENSE)
