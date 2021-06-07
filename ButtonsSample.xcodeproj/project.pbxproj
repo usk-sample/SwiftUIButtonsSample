@@ -11,6 +11,10 @@
 		A83E1519266DDC9A002056CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1518266DDC9A002056CE /* ContentView.swift */; };
 		A83E151B266DDC9B002056CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83E151A266DDC9B002056CE /* Assets.xcassets */; };
 		A83E151E266DDC9B002056CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83E151D266DDC9B002056CE /* Preview Assets.xcassets */; };
+		A83E1527266DDCB3002056CE /* RoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1526266DDCB3002056CE /* RoundedButtonStyle.swift */; };
+		A83E1529266DDD93002056CE /* CapsuleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1528266DDD93002056CE /* CapsuleButtonStyle.swift */; };
+		A83E152B266DDE06002056CE /* BorderedRoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E152A266DDE06002056CE /* BorderedRoundedButtonStyle.swift */; };
+		A83E152D266DDED3002056CE /* BorderedCapsuleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E152C266DDED3002056CE /* BorderedCapsuleButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		A83E151A266DDC9B002056CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83E151D266DDC9B002056CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A83E151F266DDC9B002056CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83E1526266DDCB3002056CE /* RoundedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonStyle.swift; sourceTree = "<group>"; };
+		A83E1528266DDD93002056CE /* CapsuleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButtonStyle.swift; sourceTree = "<group>"; };
+		A83E152A266DDE06002056CE /* BorderedRoundedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedRoundedButtonStyle.swift; sourceTree = "<group>"; };
+		A83E152C266DDED3002056CE /* BorderedCapsuleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedCapsuleButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			children = (
 				A83E1516266DDC9A002056CE /* ButtonsSampleApp.swift */,
 				A83E1518266DDC9A002056CE /* ContentView.swift */,
+				A83E1525266DDCA5002056CE /* Button */,
 				A83E151A266DDC9B002056CE /* Assets.xcassets */,
 				A83E151F266DDC9B002056CE /* Info.plist */,
 				A83E151C266DDC9B002056CE /* Preview Content */,
@@ -67,6 +76,17 @@
 				A83E151D266DDC9B002056CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A83E1525266DDCA5002056CE /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				A83E1526266DDCB3002056CE /* RoundedButtonStyle.swift */,
+				A83E1528266DDD93002056CE /* CapsuleButtonStyle.swift */,
+				A83E152A266DDE06002056CE /* BorderedRoundedButtonStyle.swift */,
+				A83E152C266DDED3002056CE /* BorderedCapsuleButtonStyle.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A83E1519266DDC9A002056CE /* ContentView.swift in Sources */,
+				A83E152B266DDE06002056CE /* BorderedRoundedButtonStyle.swift in Sources */,
+				A83E152D266DDED3002056CE /* BorderedCapsuleButtonStyle.swift in Sources */,
+				A83E1529266DDD93002056CE /* CapsuleButtonStyle.swift in Sources */,
 				A83E1517266DDC9A002056CE /* ButtonsSampleApp.swift in Sources */,
+				A83E1527266DDCB3002056CE /* RoundedButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
