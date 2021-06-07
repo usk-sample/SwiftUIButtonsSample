@@ -16,5 +16,7 @@ struct BorderedCapsuleButtonStyle: ButtonStyle {
             .foregroundColor(.blue)
             .font(.body.bold())
             .overlay(Capsule().stroke(Color.blue, lineWidth: 2))
+            .scaleEffect(configuration.isPressed ? 0.95 : 1)
+            .animation(.easeOut(duration: 0.2))
     }
 }

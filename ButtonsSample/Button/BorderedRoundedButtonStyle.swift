@@ -19,6 +19,8 @@ struct BorderedRoundedButtonStyle: ButtonStyle {
             .font(.body.bold())
             .overlay(RoundedRectangle(cornerRadius: self.cornerRadius)
                            .stroke(Color.blue, lineWidth: 2))
+            .scaleEffect(configuration.isPressed ? 0.95 : 1)
+            .animation(.easeOut(duration: 0.2))
     }
     
 }

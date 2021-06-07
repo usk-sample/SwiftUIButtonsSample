@@ -16,5 +16,7 @@ struct CapsuleButtonStyle: ButtonStyle {
             .foregroundColor(.white)
             .font(.body.bold())
             .clipShape(Capsule())
+            .scaleEffect(configuration.isPressed ? 0.95 : 1)
+            .animation(.easeOut(duration: 0.2))
     }
 }
