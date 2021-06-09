@@ -10,11 +10,12 @@ import SwiftUI
 struct RoundedButtonStyle: ButtonStyle {
     
     var cornerRadius: CGFloat
+    @Environment(\.isEnabled) var isEnabled: Bool
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()
-            .background(Color.blue)
+            .background(self.isEnabled ? Color.blue : Color.gray)
             .foregroundColor(.white)
             .font(.body.bold())
             .clipShape(RoundedRectangle.init(cornerRadius: self.cornerRadius))
